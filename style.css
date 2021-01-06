@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar */
+#nav-bar {
+    width: 100%;
+    height: 100px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    float: right;
+}
+
+#nav-bar ul li {
+    display: inline;
+    margin: 10px 20px;
+    padding-left: 5px;
+    border-left: 1px solid orange;
+
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar ul li a:hover {
+    color: tomato;
+}
+
+/* nav ber end */
+h1 {
+    font-size: 50px;
+}
+
+.orange-higlight {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+
+}
+
+.half-width img {
+    width: 100%;
+}
+
+section {
+    height: 500px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.half-width p {
+    color: #989898;
+}
+
+/* work-Pojects */
+#working-poject {
+    height: 500px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+#working-poject h1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#working-poject .s1 {
+    color: tomato;
+}
+
+#working-poject .s2 {
+    color: navy;
+}
+
+.poject-img {
+    width: 80%;
+    margin: 5px auto;
+    padding-top: 26px;
+}
+
+.demo {
+    width: 30%;
+    background-color: floralwhite;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px lightgray;
+}
+
+.demo img {
+    width: 200px;
+    margin: 10px 50px;
+}
+
+.demo h4 {
+    color: navy;
+}
+
+.demo h4,
+.demo-p {
+    text-align: center;
+}
+
+/* work inquiry/cv */
+.work-inquiry {
+    background-image: url('shapes/Group_33094_1.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.text {
+    width: 30%;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-top: 17%;
+    margin-left: 13%;
+    color: white;
+}
+
+#btn {
+    display: inline;
+    float: right;
+    width: 6%;
+    margin-right: 16%;
+    margin-top: 18%;
+}
+
+.chakeme {
+    display: inline;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* footer */
+
+.connected {
+    text-align: center;
+}
+
+.connected img {
+    display: inline-block;
+    width: 50px;
+}
+
+footer h2,
+h5 {
+    text-align: center;
+}
